@@ -1,0 +1,104 @@
+/* Blogscreate.css */
+
+
+.blogs-create-container {
+    background: linear-gradient(to bottom, #f0f0f0, #d0d0d0); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blogs-create-container h1 {
+    color: #333;
+  }
+  
+  .blogs-create-container form {
+    margin-top: 20px;
+  }
+  
+  .blogs-create-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .blogs-create-container input[type="text"],
+  .blogs-create-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .blogs-create-container button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blogs-create-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+ /* blog list css ---------------------------------------------------------    */  
+ /* Bloglist.css */
+
+.bloglist-container {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bloglist-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bloglist-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bloglist-item button:hover {
+    background-color: #0056b3;
+  }
+     
+  /* Blogdetail.css */
+
+.blogdetail-container {
+    background-color: #f9f9f9; /* Background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .blogdetail-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blogdetail-content {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Optional: Add more styles as needed */
+  
